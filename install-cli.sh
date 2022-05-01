@@ -16,7 +16,6 @@ procyon-launcher:
   admin-token: ilovepandas
 
 procyon-reverse:
-  #url: https://localhost:4443
   url: http://localhost:8080
 EOF
 )"
