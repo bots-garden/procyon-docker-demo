@@ -35,6 +35,7 @@ EXPOSE 8080
 EXPOSE 9090
 
 # docker run -p 8080:8080 -p 9090:9090 procyon
+# docker run -p 8080:8080 -p 9090:9090 -d procyon
 
 ENTRYPOINT ["sh", "-c"]
 CMD [ "./start.sh" ]

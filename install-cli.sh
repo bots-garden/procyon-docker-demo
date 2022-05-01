@@ -26,4 +26,6 @@ echo "${procyon_yaml}" > .procyon-cli.yaml
 sudo cp ./procyon-cli /usr/local/bin/procyon-cli
 cp .procyon-cli.yaml $HOME/.procyon-cli
 
-rm ./procyon-cli
+cd ..
+rm -rf ./procyon-cli
+rm procyon-cli*
